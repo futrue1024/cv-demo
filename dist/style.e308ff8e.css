@@ -6,11 +6,13 @@
 #demo {
   word-wrap: break-word;
 }
+
 #div1 {
-  overflow: auto;
   right: 50%;
-  position: fixed;
   transform: translate(50%);
+  top: 10px;
+  position: fixed;
+  overflow: auto;
 }
 
 @media (max-width: 500px) {

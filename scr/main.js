@@ -3,7 +3,7 @@ let style = document.querySelector("#style");
 
 let string = `
 /* 我想学会前端，
-*  快点娶王宁！
+*  要不断努力！
 *  接下来就要加样式了，
 */
 
@@ -14,11 +14,7 @@ let string = `
     width:200px;
     height:200px;
     border:1px solid red;
-    position:fixed;
-    right:10px;
-    top:10px;
     border-radius:50%;
-
 } 
 /* 给圆加点样式
 *  来点阴影
@@ -41,7 +37,6 @@ let string = `
     display:block;
     width:100px;
     height:100px;
-  
     border-radius:50%;
     position:absolute;
 }
@@ -51,7 +46,6 @@ let string = `
     width:100px;
     height:100px;
     border-radius:50%;
-
     position:absolute;
 }
 /* 给小球加点样式
@@ -68,11 +62,6 @@ let string = `
     transform:translate(-50%);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 100%);
 } 
-/* 让太极动起来
-*/
-
-
-
 `;
 let string2 = "";
 
